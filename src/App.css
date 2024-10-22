@@ -1,0 +1,184 @@
+/* Main container to span the full page width */
+body {
+  background-color: #f0f5f7;
+  margin: 0; /* Removes default margin */
+  min-height: 100vh; /* Ensures full height */
+}
+.controls {
+  background-color: white;
+}
+.status-columns, .priority-columns, .user-columns{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100vw; /* Full viewport width */
+  padding: 10px; /* Add padding for some spacing */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Style for each column */
+.column {
+  background-color: #f0f5f7; /* Same background color for all columns */
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1; /* Ensure all columns take equal space */
+  min-width: 0; /* Prevent overflow */
+  box-sizing: border-box; /* Ensure padding is included in column width */
+}
+
+/* Typography for headings */
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+}
+
+h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card design inside the columns */
+.card {
+  width: 100%; /* Adjust this value as needed */
+  max-width: 500px; /* Set a max-width if you want to limit the width */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Card header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Card ID */
+.card-id {
+  font-weight: bold;
+  font-size: 14px;
+  color: #757575;
+}
+
+/* User avatar image */
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Card title */
+.card-title {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Tag container */
+.card-tags {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+/* Priority tag */
+.card-priority-tag {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 16px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #616161;
+}
+
+/* Priority icon */
+.priority-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.column p {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Removed the background-color difference for the last column */
+.column:last-child {
+  text-align: left ;
+  
+}
+
+/* Improved Dropdown Design */
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropdown-button {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect for button */
+.dropdown-button:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1;
+  margin-top: 5px;
+}
+
+/* Toggle dropdown visibility when open */
+.show-dropdown {
+  display: block; /* Make visible when dropdown is open */
+}
+
+/* Styling for dropdown options */
+.dropdown-content label {
+  display: block;
+  padding: 12px 16px;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Dropdown items hover effect */
+.dropdown-content label:hover {
+  background-color: #f1f1f1;
+}
