@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/quicksell-task/static/css/main.73eabb1d.css",
+    "main.js": "/quicksell-task/static/js/main.1b40f846.js",
+    "static/js/453.33c3bb1c.chunk.js": "/quicksell-task/static/js/453.33c3bb1c.chunk.js",
+    "static/media/Display.svg": "/quicksell-task/static/media/Display.0168095040354204011b596e30abf32e.svg",
+    "static/media/Cancelled.svg": "/quicksell-task/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
+    "static/media/No-priority.svg": "/quicksell-task/static/media/No-priority.7218b139313728c6a4efa8da6e34852b.svg",
+    "static/media/Done.svg": "/quicksell-task/static/media/Done.a5158827c6345b2f141ff681c57cb3ac.svg",
+    "index.html": "/quicksell-task/index.html",
+    "static/media/Img - Medium Priority.svg": "/quicksell-task/static/media/Img - Medium Priority.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/SVG - Urgent Priority grey.svg": "/quicksell-task/static/media/SVG - Urgent Priority grey.45cb3c374d391aeb2ee4672390634279.svg",
+    "static/media/in-progress.svg": "/quicksell-task/static/media/in-progress.d4beb72fbc94f765259fc46ecaba9779.svg",
+    "static/media/SVG - Urgent Priority colour.svg": "/quicksell-task/static/media/SVG - Urgent Priority colour.9b67f75d5459d4d66573ef9f8e6f6841.svg",
+    "static/media/Backlog.svg": "/quicksell-task/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/To-do.svg": "/quicksell-task/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.73eabb1d.css.map": "/quicksell-task/static/css/main.73eabb1d.css.map",
+    "main.1b40f846.js.map": "/quicksell-task/static/js/main.1b40f846.js.map",
+    "453.33c3bb1c.chunk.js.map": "/quicksell-task/static/js/453.33c3bb1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73eabb1d.css",
+    "static/js/main.1b40f846.js"
+  ]
+}
